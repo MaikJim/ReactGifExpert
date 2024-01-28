@@ -1,5 +1,5 @@
 import PropType from 'prop-types'
-import GifItem from './GifItem'
+import { GifItem } from './GifItem'
 import { useFetchGifs } from '../hooks/useFetchGifs'
 
 function GifGrid ({ category }) {
@@ -24,7 +24,7 @@ function GifGrid ({ category }) {
   )
 }
 
-export default GifGrid
+export { GifGrid }
 
 GifGrid.propTypes = {
   category: PropType.any

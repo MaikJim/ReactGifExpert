@@ -32,4 +32,4 @@ AddCategory.propTypes = {
   onNewCategory: PropType.any
 }
 
-export default AddCategory
+export { AddCategory }

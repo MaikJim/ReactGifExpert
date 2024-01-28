@@ -9,7 +9,7 @@ function GifItem ({ title, url, id }) {
   )
 }
 
-export default GifItem
+export { GifItem }
 
 GifItem.propTypes = {
   title: PropType.string,
